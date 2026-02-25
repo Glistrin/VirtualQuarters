@@ -9,8 +9,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"EntityParent","path":"objects/EntityParent/EntityParent.yy",},"propertyId":{"name":"entActivationArg","path":"objects/EntityParent/EntityParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[[global.Enemies.MrPlaceholder], [4,3], Placeholder]",},
   ],
   "parent":{
-    "name":"~PlaceHolder",
-    "path":"folders/~Misc/~/~PlaceHolder.yy",
+    "name":"Placeholder",
+    "path":"folders/~Misc/~/Placeholder.yy",
   },
   "parentObjectId":{
     "name":"EntityCollisionParent",

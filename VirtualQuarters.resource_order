@@ -2,7 +2,7 @@
   "FolderOrderSettings":[
     {"name":"~Misc","order":8,"path":"folders/~Misc.yy",},
     {"name":"~","order":6,"path":"folders/~Misc/~.yy",},
-    {"name":"~PlaceHolder","order":2,"path":"folders/~Misc/~/~PlaceHolder.yy",},
+    {"name":"Placeholder","order":2,"path":"folders/~Misc/~/Placeholder.yy",},
     {"name":"Debug","order":5,"path":"folders/~Misc/~/Debug.yy",},
     {"name":"UI","order":9,"path":"folders/UI.yy",},
     {"name":"Entities","order":2,"path":"folders/~Misc/Entities.yy",},
@@ -61,7 +61,6 @@
     {"name":"Cliffsoreal","order":7,"path":"sprites/Cliffsoreal/Cliffsoreal.yy",},
     {"name":"Collision","order":4,"path":"sprites/Collision/Collision.yy",},
     {"name":"DialougeArrow","order":1,"path":"sprites/DialougeArrow/DialougeArrow.yy",},
-    {"name":"HoddoTalk","order":4,"path":"sprites/HoddoTalk/HoddoTalk.yy",},
     {"name":"InvisibleSpr","order":1,"path":"sprites/InvisibleSpr/InvisibleSpr.yy",},
     {"name":"JadeTalk","order":1,"path":"sprites/JadeTalk/JadeTalk.yy",},
     {"name":"KMIcon","order":1,"path":"sprites/KMIcon/KMIcon.yy",},

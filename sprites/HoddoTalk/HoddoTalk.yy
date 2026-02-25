@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"CharaSprites",
-    "path":"folders/CharaSprites.yy",
+    "name":"CharaHoddo",
+    "path":"folders/CharaSprites/CharaHoddo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

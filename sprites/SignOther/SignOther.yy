@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"~PlaceHolder",
-    "path":"folders/~Misc/~/~PlaceHolder.yy",
+    "name":"Placeholder",
+    "path":"folders/~Misc/~/Placeholder.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

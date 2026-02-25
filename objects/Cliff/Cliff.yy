@@ -6,8 +6,8 @@
   "name":"Cliff",
   "overriddenProperties":[],
   "parent":{
-    "name":"~PlaceHolder",
-    "path":"folders/~Misc/~/~PlaceHolder.yy",
+    "name":"Placeholder",
+    "path":"folders/~Misc/~/Placeholder.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -12,7 +12,7 @@
   "Folders":[
     {"$GMFolder":"","%Name":"~Misc","folderPath":"folders/~Misc.yy","name":"~Misc","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"~","folderPath":"folders/~Misc/~.yy","name":"~","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"~PlaceHolder","folderPath":"folders/~Misc/~/~PlaceHolder.yy","name":"~PlaceHolder","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Placeholder","folderPath":"folders/~Misc/~/Placeholder.yy","name":"Placeholder","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Debug","folderPath":"folders/~Misc/~/Debug.yy","name":"Debug","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"UI","folderPath":"folders/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Entities","folderPath":"folders/~Misc/Entities.yy","name":"Entities","resourceType":"GMFolder","resourceVersion":"2.0",},

@@ -16,6 +16,7 @@ global.CutscenesText = {
 			[AddText, ["Seven.",0,0,0]],
 			[AddText, ["The Roaring Se- ??? what am i on.",0,0,0]],
 			[AddText, ["Seven human souls.",0,0,0]]
+			[AddText, ["Biblyt.",0,0,0]]
 		],
 		DebugUndyneAA: [[AddText, ["Something !!",0,0,0]]],
 		DebugUndyneAAA: [[AddText, ["Raaa!!!",0,0,0]]],

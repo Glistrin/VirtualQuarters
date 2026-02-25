@@ -24,7 +24,7 @@ _lengthText[0] = string_length(_text[0])
 _drawChara = 0;
 
 _textSpeed = 0.5;
-
+ 
 _setup = false
 
 _Impatience = 0

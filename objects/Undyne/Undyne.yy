@@ -9,8 +9,8 @@
   "name":"Undyne",
   "overriddenProperties":[],
   "parent":{
-    "name":"PlaceHolder",
-    "path":"folders/Objects/Overworld/PlaceHolder.yy",
+    "name":"~PlaceHolder",
+    "path":"folders/~Misc/~/~PlaceHolder.yy",
   },
   "parentObjectId":null,
   "persistent":false,

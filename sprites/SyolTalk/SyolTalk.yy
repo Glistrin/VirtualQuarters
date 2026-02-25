@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"CharaSyol",
-    "path":"folders/Sprites/Charas/CharaSyol.yy",
+    "path":"folders/CharaSprites/CharaSyol.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

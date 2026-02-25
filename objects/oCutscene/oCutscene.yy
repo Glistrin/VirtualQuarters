@@ -9,8 +9,8 @@
   "name":"oCutscene",
   "overriddenProperties":[],
   "parent":{
-    "name":"Cutscenes",
-    "path":"folders/Objects/Parents+Managers/Other/Cutscenes.yy",
+    "name":"Cutscene",
+    "path":"folders/Cutscene.yy",
   },
   "parentObjectId":null,
   "persistent":false,

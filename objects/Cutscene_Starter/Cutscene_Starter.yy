@@ -8,8 +8,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"EntityParent","path":"objects/EntityParent/EntityParent.yy",},"propertyId":{"name":"entActivateScript","path":"objects/EntityParent/EntityParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"StartCutscene",},
   ],
   "parent":{
-    "name":"Cutscenes",
-    "path":"folders/Objects/Parents+Managers/Other/Cutscenes.yy",
+    "name":"Cutscene",
+    "path":"folders/Cutscene.yy",
   },
   "parentObjectId":{
     "name":"EntityCollisionParent",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Invisible",
-    "path":"sprites/Invisible/Invisible.yy",
+    "name":"InvisibleSpr",
+    "path":"sprites/InvisibleSpr/InvisibleSpr.yy",
   },
   "spriteMaskId":null,
   "visible":true,

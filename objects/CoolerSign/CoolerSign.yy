@@ -8,8 +8,8 @@
   "name":"CoolerSign",
   "overriddenProperties":[],
   "parent":{
-    "name":"PlaceHolder",
-    "path":"folders/Objects/Overworld/PlaceHolder.yy",
+    "name":"~PlaceHolder",
+    "path":"folders/~Misc/~/~PlaceHolder.yy",
   },
   "parentObjectId":{
     "name":"EntityTalkParent",

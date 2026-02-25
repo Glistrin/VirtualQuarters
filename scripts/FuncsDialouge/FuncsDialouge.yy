@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"FuncsDialouge",
   "parent":{
-    "name":"Funcs",
-    "path":"folders/Scripts/Funcs.yy",
+    "name":"Dialouge",
+    "path":"folders/Dialouge.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

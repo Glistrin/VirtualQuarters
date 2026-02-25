@@ -9,8 +9,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"EntityParent","path":"objects/EntityParent/EntityParent.yy",},"propertyId":{"name":"entActivationArg","path":"objects/EntityParent/EntityParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[0]",},
   ],
   "parent":{
-    "name":"Other",
-    "path":"folders/Objects/Parents+Managers/Other.yy",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "parentObjectId":{
     "name":"EntityCollisionParent",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Invisible",
-    "path":"sprites/Invisible/Invisible.yy",
+    "name":"InvisibleSpr",
+    "path":"sprites/InvisibleSpr/InvisibleSpr.yy",
   },
   "spriteMaskId":null,
   "visible":true,

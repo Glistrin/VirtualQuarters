@@ -16,7 +16,7 @@ draw_sprite_ext(UIBackground, 0,x, y,_width/9, _height/9, 0, c_white,1)
 
 
 
-draw_set_font(NormalText)
+draw_set_font(UndertaleFont)
 draw_set_valign(fa_top)
 draw_set_halign(fa_left)
 

@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Slime",
-    "path":"folders/Sprites/Battles/Slime.yy",
+    "path":"folders/Battle/BattleSprites/Slime.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

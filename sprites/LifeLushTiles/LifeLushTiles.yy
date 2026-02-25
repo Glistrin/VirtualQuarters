@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Lifelush",
-    "path":"folders/Sprites/Overworld/Lifelush.yy",
+    "path":"folders/Rooms/Lifelush.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

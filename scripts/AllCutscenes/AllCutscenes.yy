@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"AllCutscenes",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Cutscene",
+    "path":"folders/Cutscene.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

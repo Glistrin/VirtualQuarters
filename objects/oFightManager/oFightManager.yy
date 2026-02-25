@@ -11,8 +11,8 @@
   "name":"oFightManager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Other",
-    "path":"folders/Objects/Parents+Managers/Other.yy",
+    "name":"Battle",
+    "path":"folders/Battle.yy",
   },
   "parentObjectId":null,
   "persistent":false,

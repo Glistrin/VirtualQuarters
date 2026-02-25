@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"FuncsPlayer",
   "parent":{
-    "name":"Funcs",
-    "path":"folders/Scripts/Funcs.yy",
+    "name":"Player",
+    "path":"folders/~Misc/Player.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

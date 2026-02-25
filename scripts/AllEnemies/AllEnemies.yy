@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"AllEnemies",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Battle",
+    "path":"folders/Battle.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

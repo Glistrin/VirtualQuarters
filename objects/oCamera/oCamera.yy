@@ -10,8 +10,8 @@
   "name":"oCamera",
   "overriddenProperties":[],
   "parent":{
-    "name":"_Game",
-    "path":"folders/Objects/Parents+Managers/_Game.yy",
+    "name":"Game",
+    "path":"folders/~Misc/Game.yy",
   },
   "parentObjectId":null,
   "persistent":true,

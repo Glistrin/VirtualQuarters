@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"CharaMaple",
-    "path":"folders/Sprites/Charas/CharaMaple.yy",
+    "path":"folders/CharaSprites/CharaMaple.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -13,8 +13,8 @@
   ],
   "name":"FightRoom",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Battle",
+    "path":"folders/Battle.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

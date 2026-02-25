@@ -29,7 +29,7 @@
   "origin":7,
   "parent":{
     "name":"CharaKM",
-    "path":"folders/Sprites/Charas/CharaKM.yy",
+    "path":"folders/CharaSprites/CharaKM.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

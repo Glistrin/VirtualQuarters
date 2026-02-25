@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"_FuncsLibrarby",
   "parent":{
-    "name":"Funcs",
-    "path":"folders/Scripts/Funcs.yy",
+    "name":"~Misc",
+    "path":"folders/~Misc.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

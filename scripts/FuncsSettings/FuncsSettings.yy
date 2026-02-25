@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"FuncsSettings",
   "parent":{
-    "name":"Funcs",
-    "path":"folders/Scripts/Funcs.yy",
+    "name":"Settings",
+    "path":"folders/~Misc/Settings.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

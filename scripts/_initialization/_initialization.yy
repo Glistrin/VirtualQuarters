@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"_initialization",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Game",
+    "path":"folders/~Misc/Game.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

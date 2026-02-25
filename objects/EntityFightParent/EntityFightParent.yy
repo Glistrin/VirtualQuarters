@@ -11,7 +11,7 @@
   ],
   "parent":{
     "name":"Entities",
-    "path":"folders/Objects/Parents+Managers/Entities.yy",
+    "path":"folders/~Misc/Entities.yy",
   },
   "parentObjectId":{
     "name":"EntityParent",

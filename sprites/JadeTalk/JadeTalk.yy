@@ -28,7 +28,7 @@
   "origin":0,
   "parent":{
     "name":"CharaJade",
-    "path":"folders/Sprites/Charas/CharaJade.yy",
+    "path":"folders/CharaSprites/CharaJade.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

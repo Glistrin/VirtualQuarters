@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"FuncsRooms",
   "parent":{
-    "name":"Funcs",
-    "path":"folders/Scripts/Funcs.yy",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

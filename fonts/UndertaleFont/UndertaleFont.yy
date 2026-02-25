@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"NormalText",
+  "%Name":"UndertaleFont",
   "AntiAlias":0,
   "applyKerning":0,
   "ascender":21,
@@ -117,10 +117,10 @@
   "last":0,
   "lineHeight":32,
   "maintainGms1Font":false,
-  "name":"NormalText",
+  "name":"UndertaleFont",
   "parent":{
-    "name":"Fonts",
-    "path":"folders/Fonts.yy",
+    "name":"~",
+    "path":"folders/~Misc/~.yy",
   },
   "pointRounding":0,
   "ranges":[

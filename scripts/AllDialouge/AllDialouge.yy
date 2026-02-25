@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"AllDialouge",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Dialouge",
+    "path":"folders/Dialouge.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

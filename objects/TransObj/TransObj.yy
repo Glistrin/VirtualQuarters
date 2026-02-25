@@ -9,8 +9,8 @@
   "name":"TransObj",
   "overriddenProperties":[],
   "parent":{
-    "name":"Other",
-    "path":"folders/Objects/Parents+Managers/Other.yy",
+    "name":"~Misc",
+    "path":"folders/~Misc.yy",
   },
   "parentObjectId":null,
   "persistent":false,

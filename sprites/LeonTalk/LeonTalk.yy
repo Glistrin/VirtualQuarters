@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"CharaLeon",
-    "path":"folders/Sprites/Charas/CharaLeon.yy",
+    "path":"folders/CharaSprites/CharaLeon.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

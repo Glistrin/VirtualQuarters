@@ -10,8 +10,8 @@
   "name":"oTextBox",
   "overriddenProperties":[],
   "parent":{
-    "name":"Other",
-    "path":"folders/Objects/Parents+Managers/Other.yy",
+    "name":"Dialouge",
+    "path":"folders/Dialouge.yy",
   },
   "parentObjectId":null,
   "persistent":false,

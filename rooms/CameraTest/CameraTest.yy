@@ -16,8 +16,8 @@
   ],
   "name":"CameraTest",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Debug",
+    "path":"folders/~Misc/~/Debug.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

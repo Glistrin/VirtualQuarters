@@ -193,7 +193,7 @@
 	function SetUpDialouge() {
 		if (_setup == true) return;
 		
-		draw_set_font(NormalText)
+		draw_set_font(UndertaleFont)
 		draw_set_color(c_white)
 		draw_set_halign(fa_left)
 		draw_set_valign(fa_top)

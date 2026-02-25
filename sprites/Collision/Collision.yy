@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"TileSets",
-    "path":"folders/Sprites/Overworld/TileSets.yy",
+    "name":"~",
+    "path":"folders/~Misc/~.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

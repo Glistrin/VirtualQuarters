@@ -28,7 +28,7 @@
   "origin":0,
   "parent":{
     "name":"CharaMyer",
-    "path":"folders/Sprites/Charas/CharaMyer.yy",
+    "path":"folders/CharaSprites/CharaMyer.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

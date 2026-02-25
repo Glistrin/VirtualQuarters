@@ -19,8 +19,8 @@
   ],
   "name":"ParentRoom",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"~Misc",
+    "path":"folders/~Misc.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

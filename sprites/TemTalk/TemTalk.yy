@@ -28,7 +28,7 @@
   "origin":0,
   "parent":{
     "name":"CharaTem",
-    "path":"folders/Sprites/Charas/CharaTem.yy",
+    "path":"folders/CharaSprites/CharaTem.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

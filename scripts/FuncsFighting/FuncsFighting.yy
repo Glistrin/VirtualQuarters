@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"FuncsFighting",
   "parent":{
-    "name":"Funcs",
-    "path":"folders/Scripts/Funcs.yy",
+    "name":"Battle",
+    "path":"folders/Battle.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

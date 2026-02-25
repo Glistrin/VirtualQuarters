@@ -15,10 +15,11 @@ global.CutscenesText = {
 			[AddText, ["mb gng im going insane.",0,0,0]],
 			[AddText, ["Seven.",0,0,0]],
 			[AddText, ["The Roaring Se- ??? what am i on.",0,0,0]],
-			[AddText, ["Seven human souls.",0,0,0]]
-			[AddText, ["Always bet on Papyrus knight.",0,0,0]]
+			[AddText, ["Seven human souls.",0,0,0]],
+			[AddText, ["Always bet on Papyrus knight.",0,0,0]],
 			[AddText, ["Or Sans worldsmith.",0,0,0]]
 		],
+		
 		DebugUndyneAA: [[AddText, ["Something !!",0,0,0]]],
 		DebugUndyneAAA: [[AddText, ["Raaa!!!",0,0,0]]],
 		DebugUndyneAAAA: [[AddText, ["AAAAAA!!!",0,0,0]]]

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Overworld",
-    "path":"folders/Sprites/Overworld.yy",
+    "name":"~PlaceHolder",
+    "path":"folders/~Misc/~/~PlaceHolder.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -10,8 +10,8 @@
   "name":"oSettingsMenu",
   "overriddenProperties":[],
   "parent":{
-    "name":"_Game",
-    "path":"folders/Objects/Parents+Managers/_Game.yy",
+    "name":"Settings",
+    "path":"folders/~Misc/Settings.yy",
   },
   "parentObjectId":null,
   "persistent":false,

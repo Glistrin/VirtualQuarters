@@ -32,8 +32,8 @@
   ],
   "name":"LifelushRoom2",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Lifelush",
+    "path":"folders/Rooms/Lifelush.yy",
   },
   "parentRoom":{
     "name":"ParentRoom",

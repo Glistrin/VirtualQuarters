@@ -1,0 +1,1 @@
+draw_sprite(background, 0, x, y)

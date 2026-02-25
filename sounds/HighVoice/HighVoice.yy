@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"HighVoice",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.10897959,
+  "exportDir":"",
+  "name":"HighVoice",
+  "parent":{
+    "name":"Voices",
+    "path":"folders/Sounds/Voices.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"HighVoice.mp3",
+  "volume":1.0,
+}

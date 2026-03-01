@@ -16,7 +16,7 @@ global.CutscenesText = {
 			[AddText, ["Seven.",0,0,0]],
 			[AddText, ["The Roaring Se- ??? what am i on.",0,0,0]],
 			[AddText, ["Seven human souls.",0,0,0]]
-			[AddText, ["Always bet on Papyrus.",0,0,0]]
+			[AddText, ["Always bet.",0,0,0]]
 
 
 		],

@@ -12,9 +12,8 @@
   "Folders":[
     {"$GMFolder":"","%Name":"~Misc","folderPath":"folders/~Misc.yy","name":"~Misc","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"~","folderPath":"folders/~Misc/~.yy","name":"~","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Placeholder","folderPath":"folders/~Misc/~/Placeholder.yy","name":"Placeholder","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Debug","folderPath":"folders/~Misc/~/Debug.yy","name":"Debug","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"UI","folderPath":"folders/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Placeholder","folderPath":"folders/~Misc/~/Placeholder.yy","name":"Placeholder","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Entities","folderPath":"folders/~Misc/Entities.yy","name":"Entities","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Game","folderPath":"folders/~Misc/Game.yy","name":"Game","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/~Misc/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -39,6 +38,7 @@
     {"$GMFolder":"","%Name":"Lifelush","folderPath":"folders/Rooms/Lifelush.yy","name":"Lifelush","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Voices","folderPath":"folders/Sounds/Voices.yy","name":"Voices","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"UI","folderPath":"folders/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],

@@ -2,9 +2,8 @@
   "FolderOrderSettings":[
     {"name":"~Misc","order":8,"path":"folders/~Misc.yy",},
     {"name":"~","order":6,"path":"folders/~Misc/~.yy",},
-    {"name":"Placeholder","order":2,"path":"folders/~Misc/~/Placeholder.yy",},
     {"name":"Debug","order":5,"path":"folders/~Misc/~/Debug.yy",},
-    {"name":"UI","order":9,"path":"folders/UI.yy",},
+    {"name":"Placeholder","order":2,"path":"folders/~Misc/~/Placeholder.yy",},
     {"name":"Entities","order":2,"path":"folders/~Misc/Entities.yy",},
     {"name":"Game","order":1,"path":"folders/~Misc/Game.yy",},
     {"name":"Player","order":11,"path":"folders/~Misc/Player.yy",},
@@ -27,6 +26,7 @@
     {"name":"Lifelush","order":1,"path":"folders/Rooms/Lifelush.yy",},
     {"name":"Sounds","order":4,"path":"folders/Sounds.yy",},
     {"name":"Voices","order":1,"path":"folders/Sounds/Voices.yy",},
+    {"name":"UI","order":9,"path":"folders/UI.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"UndertaleFont","order":1,"path":"fonts/UndertaleFont/UndertaleFont.yy",},

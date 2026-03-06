@@ -4,7 +4,7 @@
 		text_x_offset[d] = 120
 			
 		if (_sideSpeaker[d] == 1) {
-			text_x_offset[d] = 436
+			text_x_offset[d] = 408
 			portrait_offset[d] = 472
 		}
 		else if (_sideSpeaker[d] == -1) {
@@ -119,7 +119,10 @@
 			} else {if (_sideSpeaker[d] == 1) {text_x_offset[d] -= string_width(_currentChara[d, c])*squishiness}}
 			
 		}
-		for (var c = 0; c < _lengthText[d]; c++) { // Changing the x and y's based on that info
+			
+			
+		for (var c = 0; c <= _lengthText[d]; c++) { // Changing the x and y's based on that info
+	
 			var _charapos = c+1
 			var _textypos = 0
 			var _textxpos = 0
@@ -140,9 +143,12 @@
 					_textline = linebreaks+1
 				}	
 			}
+			if (String_until_chara_width > _FinalBoxWidth[d]) {_FinalBoxWidth[d] = String_until_chara_width}
+			_currentCharaX_beforeoffset[d, c] = String_until_chara_width
+			_currentCharaX[d, c] = String_until_chara_width + text_x_offset[d] + _border*2 + (_border*_sideSpeaker[d])
 			
-			_currentCharaX[d, c] = String_until_chara_width + text_x_offset[d] + _border
-			_currentCharaY[d, c] = _textline * _newlineSep + _border + 	_box_y - 6
+
+			_currentCharaY[d, c] = _textline * _newlineSep + _border + 	_box_y - (_border/2)
 		}
 
 
@@ -216,6 +222,7 @@
 		for (var c = 0; c < 99; c++) {
 		
 			_currentChara[_DialougeTotal, c] = ""
+			_currentCharaX_beforeoffset[_DialougeTotal, c] = 0
 			_currentCharaX[_DialougeTotal, c] = 0
 			_currentCharaY[_DialougeTotal, c] = 0
 		

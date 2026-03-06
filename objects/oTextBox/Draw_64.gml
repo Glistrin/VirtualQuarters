@@ -10,11 +10,11 @@ for (var messages = 0; messages < 9; messages++) {
 	var Out_of_Bounds_Message = (drawnDialouge < 0)
 	if Out_of_Bounds_Message break;
 	
-	var currentdialouge = (drawnDialouge == _dialougeCurrent) && (_drawChara < _lengthText[_dialougeCurrent])
+	var Is_CurDialouge = (drawnDialouge == _dialougeCurrent) && (_drawChara < _lengthText[_dialougeCurrent])
 
 	prev_lines_offset += (_numberLinebreak[drawnDialouge]*_newlineSep) + 20 + _border*2
 	
-	var drawtalker = (_name[drawnDialouge] != "") && (!currentdialouge)
+	var drawtalker = (_name[drawnDialouge] != "") && (!Is_CurDialouge)
 	if drawtalker { 	// Speaker
 		var _textboxW = sprite_get_width(UIBackground)
 		var _textboxH = sprite_get_height(UIBackground)
@@ -48,47 +48,37 @@ for (var messages = 0; messages < 9; messages++) {
 	for (var char = 0; char < _drawChara; char++) {
 	
 		var d = drawnDialouge
-		var amount_of_characters_to_write = 0
-		var y_draw = 0
-		if !currentdialouge y_draw = _box_y - prev_lines_offset else  y_draw = _box_y + 24
 		
-		if currentdialouge {amount_of_characters_to_write = char} 
-		else {amount_of_characters_to_write = array_length(_currentChara[d]) - 1}
 		
-
-		if !currentdialouge {draw_sprite_ext(TextBackground, _textbg[d],
-		text_x_offset[d], y_draw,
-		_FinalBoxWidth[d], _FinalBoxHeight[d], 0, c_white, 1)
-		peak_length_y = _FinalBoxHeight[d]} else { 
+		var amnt_char_to_write = Is_CurDialouge		? char					: array_length(_currentChara[d]) - 1;
 		
-		var text_length_y = _currentCharaY[d,char] - (_box_y-10) + _border*2
-		var text_length_x = _currentCharaX[d,char] - text_x_offset[d] + 20
-		if text_length_x > maxlengthx {maxlengthx = text_length_x}
+		var bg = Is_CurDialouge						? 2						: _textbg[d]
 		
-
-		maxlengthx /= sprite_get_width(TextBackground)
-		text_length_y /= sprite_get_height(TextBackground)
+		var y_draw = Is_CurDialouge					? _box_y + 24			: _box_y - prev_lines_offset
 		
+		var x_draw = Is_CurDialouge					? 160					: text_x_offset[d] + _border + (_border*_sideSpeaker[d])
+	
+		var w_draw = Is_CurDialouge					? _linewidth			: _FinalBoxWidth[d] + _border*2
+		
+		draw_sprite_stretched(TextBackground, bg,
+			x_draw, y_draw,
+			w_draw, _FinalBoxHeight[d])
+			
+		if (Is_CurDialouge) { 
+		_FinalBoxHeight[d] = _currentCharaY[d,char] - _box_y + _border*3
 		if _sideSpeaker[d] == -1 _textbg[d] = 0 else _textbg[d] = 1
-		
-		draw_sprite_ext(TextBackground, 2,
-		text_x_offset[d], y_draw,
-		maxlengthx, text_length_y, 0, c_white, 1)
-		
-		_FinalBoxWidth[_dialougeCurrent] = maxlengthx
-		_FinalBoxHeight[_dialougeCurrent] = text_length_y
-
-
 		}
 		
 	
 		// Text
-		for (var _char = 0; _char <= amount_of_characters_to_write; _char++) {
+		for (var _char = 0; _char <= amnt_char_to_write; _char++) {
 			var c = _char
-			var lines
-			if currentdialouge lines = prev_lines_offset-68
-			else lines = prev_lines_offset
-			draw_text_transformed_color	(_currentCharaX[d, c], _currentCharaY[d, c]-lines, _currentChara[d, c], 1, 1, 0, _col1[d,c], _col2[d,c],_col3[d,c], _col4[d,c],1)
+			
+			var used_y = Is_CurDialouge ? -24 : prev_lines_offset
+			var used_x = Is_CurDialouge ? _currentCharaX_beforeoffset[d,c] + 168 : _currentCharaX[d,c]
+
+			
+			draw_text_transformed_color	(used_x, _currentCharaY[d, c]-used_y, _currentChara[d, c], 1, 1, 0, _col1[d,c], _col2[d,c],_col3[d,c], _col4[d,c],1)
 		}
 	}
 	prev_lines_offset += _ParaSep[drawnDialouge]*50 

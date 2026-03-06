@@ -1,6 +1,6 @@
 fps1 = 0
 
-_width = 400
+_width = 340
 _height = 200
 
 _border = 12

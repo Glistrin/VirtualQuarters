@@ -10,7 +10,7 @@ for (var messages = 0; messages < 9; messages++) {
 	var Out_of_Bounds_Message = (drawnDialouge < 0)
 	if Out_of_Bounds_Message break;
 	
-	var Is_CurDialouge = (drawnDialouge == _dialougeCurrent) && (_drawChara < _lengthText[_dialougeCurrent])
+	var Is_CurDialouge = (drawnDialouge == _dialougeCurrent) && !_sent
 
 	prev_lines_offset += (_numberLinebreak[drawnDialouge]*_newlineSep) + 20 + _border*2
 	

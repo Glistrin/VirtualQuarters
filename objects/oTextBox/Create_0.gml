@@ -25,6 +25,7 @@ _drawChara = 0;
 
 _textSpeed = 0.5;
  
+_sent = false
 _setup = false
 
 _Impatience = 0

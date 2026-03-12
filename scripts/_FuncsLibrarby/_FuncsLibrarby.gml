@@ -64,5 +64,6 @@ function resolve_cursor()
     global.cursor_requests_p = [];
     global.cursor_requests_spr = [];
 }
+
 global.tracker = 0
 global.trackeeer = 0

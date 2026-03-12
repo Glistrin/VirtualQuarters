@@ -5,14 +5,14 @@ SetUpDialouge()
 var prev_lines_offset = 0;
 for (var messages = 0; messages < 9; messages++) {
 
-	var drawnDialouge = _dialougeCurrent - messages 
-	
-	var Out_of_Bounds_Message = (drawnDialouge < 0)
+	var drawnDialouge = _dialougeCurrent - messages
+
+	var Out_of_Bounds_Message = (drawnDialouge < 0) 
 	if Out_of_Bounds_Message break;
 	
 	var Is_CurDialouge = (drawnDialouge == _dialougeCurrent) && !_sent
-
-	prev_lines_offset += (_numberLinebreak[drawnDialouge]*_newlineSep) + 20 + _border*2
+	
+	if (!Is_CurDialouge) prev_lines_offset += (_numberLinebreak[drawnDialouge]*_newlineSep) + 20 + _border*2
 	
 	var drawtalker = (_name[drawnDialouge] != "") && (!Is_CurDialouge)
 	if drawtalker { 	// Speaker
@@ -69,7 +69,7 @@ for (var messages = 0; messages < 9; messages++) {
 		if _sideSpeaker[d] == -1 _textbg[d] = 0 else _textbg[d] = 1
 		}
 		
-	
+
 		// Text
 		for (var _char = 0; _char <= amnt_char_to_write; _char++) {
 			var c = _char

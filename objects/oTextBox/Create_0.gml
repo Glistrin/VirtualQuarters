@@ -13,7 +13,7 @@ _box_y = 400
 
 options = 0
 _optionsPos = 0
-
+ 
 
 _dialougeCurrent = 0
 _DialougeTotal = 0;

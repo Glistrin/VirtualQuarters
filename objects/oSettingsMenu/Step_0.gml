@@ -16,8 +16,8 @@ if (Accept) {
 			switch(pos) {
 				case 0: with (oPlayer) {_State = StateMachFree}; instance_destroy(self); break;
 				case 1: break;
-				case 2: break;
-				case 3: break;
+				case 2: break; 
+				case 3: instance_create_depth(0,0,0,VolumeControl); instance_destroy(self); break;
 				case 4: break;
 			}
 		break;

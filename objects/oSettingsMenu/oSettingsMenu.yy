@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Settings",
-    "path":"folders/~Misc/Settings.yy",
+    "path":"folders/Settings.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Debug",
-    "path":"folders/~Misc/~/Debug.yy",
+    "path":"folders/~~/Debug.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

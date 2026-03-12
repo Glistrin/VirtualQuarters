@@ -86,8 +86,10 @@ global.Lines = {
 		REALCBCONVO: [
 				[AddText, ["Guys", [CHARAS.HODDO, 0, -1, 1]]],
 				[AddText, ["My Nintendo Wii", [CHARAS.HODDO, 0, -1, 0]]],
+				[AddText, ["it will make tem instantly came or smth idk", [CHARAS.HODDO, 0, -1, 0]]],
 				[AddText, ["what", [CHARAS.TEM, 0, 1, 1]]],
 				[AddText, ["i heard wii and instantly came", [CHARAS.TEM, 0, 1, 0]]],
+				[AddText, ["and that caming is very caming and this will take up 3 lines of text", [CHARAS.TEM, 0, 1, 0]]],
 				[AddText, ["NOT IN THAT WAY", [CHARAS.TEM, 0, 1, 1]]],	
 				[AddText, ["SmallishB", [CHARAS.SYOL, 0, -1, 1]]],
 				[AddText, ["Big Bean", [CHARAS.SYOL, 0, -1, 1]]],	

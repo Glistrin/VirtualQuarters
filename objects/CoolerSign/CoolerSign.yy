@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Placeholder",
-    "path":"folders/~Misc/~/Placeholder.yy",
+    "path":"folders/~~/Placeholder.yy",
   },
   "parentObjectId":{
     "name":"EntityTalkParent",

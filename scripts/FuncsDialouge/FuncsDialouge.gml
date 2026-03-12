@@ -88,18 +88,17 @@
 	}
 		
 	function SetUpDialougeLineBreak(d) {
+
 		for (var c = 0; c < _lengthText[d]; c++) { // Finding where the linebreaks go
 			var _charapos = c+1	
 		
 			_currentChara[d, c] = string_char_at(_text[d], _charapos)
 			
-			var squishiness = 0.85
 			var String_until_chara = string_copy(_text[d], 1, _charapos)
-			var String_until_chara_width = string_width(String_until_chara)*squishiness - string_width(_currentChara[d, c])*squishiness
+			var String_until_chara_width = string_width(String_until_chara) - string_width(_currentChara[d, c])
 			var Chara_is_Space = _currentChara[d, c] == " "
 			var CurrentLineWidth =  String_until_chara_width - _Linebreak_PreviousLines[d]
 			var Line_is_too_long = CurrentLineWidth > _linewidth
-			
 			
 			if  Chara_is_Space {_lastfreespace = _charapos + 1}
 
@@ -109,17 +108,44 @@
 			
 				var previouslines = string_copy(_text[d], 1, _lastfreespace)
 				var lastfreespace = string_char_at(_text[d], _lastfreespace)
-				var previouslinesWidth = string_width(previouslines)*squishiness
-				var lastfreespacewidth = string_width(lastfreespace)*squishiness
+				var previouslinesWidth = string_width(previouslines)
+				var lastfreespacewidth = string_width(lastfreespace)
 		
 
 			
 				var Offset_amount = previouslinesWidth - lastfreespacewidth
 				_Linebreak_PreviousLines[d] = Offset_amount
-			} else {if (_sideSpeaker[d] == 1) {text_x_offset[d] -= string_width(_currentChara[d, c])*squishiness}}
-			
+			}		
 		}
-			
+
+		
+		if (_sideSpeaker[d] == 1) {
+			var _longestWidth = 0
+			var _startPos = 1
+
+			for (var i = 0; i < _numberLinebreak[d]; i++)
+			{
+			    var _breakPos = _positionLinebreak[d, i];
+			    var _lineText = string_copy(_text[d], _startPos, _breakPos - _startPos-1);
+    
+			    var _lineWidth = string_width(_lineText);
+			    if (_lineWidth > _longestWidth) {
+			        _longestWidth = _lineWidth;
+			    }
+    
+			    _startPos = _breakPos;
+			}
+
+			var _lastLine = string_copy(_text[d], _startPos, string_length(_text[d]) - _startPos + 1);
+			var _lastWidth = string_width(_lastLine);
+
+			if (_lastWidth > _longestWidth) {
+			    _longestWidth = _lastWidth;
+			}
+		
+			text_x_offset[d] -= _longestWidth
+		}
+	
 			
 		for (var c = 0; c <= _lengthText[d]; c++) { // Changing the x and y's based on that info
 	
@@ -127,9 +153,8 @@
 			var _textypos = 0
 			var _textxpos = 0
 			
-			var squishiness = 0.85
 			var String_until_chara = string_copy(_text[d], 1, _charapos)
-			var String_until_chara_width = string_width(String_until_chara)*squishiness - string_width(_currentChara[d, c])*squishiness
+			var String_until_chara_width = string_width(String_until_chara) - string_width(_currentChara[d, c])
 			var _textline = 0
 			
 			for (var linebreaks = 0; linebreaks < _numberLinebreak[d]; linebreaks++) {
@@ -137,7 +162,7 @@
 					var line_start = _positionLinebreak[d, linebreaks]
 					var line_count = _charapos-_positionLinebreak[d, linebreaks]
 					var str_copy = string_copy(_text[d], line_start, line_count)
-					String_until_chara_width = string_width(str_copy)*squishiness
+					String_until_chara_width = string_width(str_copy)
 					
 					
 					_textline = linebreaks+1
@@ -146,13 +171,10 @@
 			if (String_until_chara_width > _FinalBoxWidth[d]) {_FinalBoxWidth[d] = String_until_chara_width}
 			_currentCharaX_beforeoffset[d, c] = String_until_chara_width
 			_currentCharaX[d, c] = String_until_chara_width + text_x_offset[d] + _border*2 + (_border*_sideSpeaker[d])
-			
-
 			_currentCharaY[d, c] = _textline * _newlineSep + _border + 	_box_y - (_border/2)
 		}
 
-
-	}
+}
 	function SetUpDialougeTextEffects(d) {
 		var CurrentEffect = 0
 		

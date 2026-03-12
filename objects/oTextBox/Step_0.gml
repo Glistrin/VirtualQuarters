@@ -15,8 +15,8 @@ if (!_end_of_text and no_suspense) {
 	var time_to_play_sound = _soundCount >= _soundDelay
 	if (time_to_play_sound) {
 		_soundCount = -1; 
-		audio_play_sound(_sound[_dialougeCurrent], 4, false)
-	}
+		audio_play_sound(_sound[_dialougeCurrent], 4, false, 0.025 * global.Volume)
+	}  
 		_soundCount++
 
 } 

@@ -6,7 +6,7 @@
   "name":"FuncsSettings",
   "parent":{
     "name":"Settings",
-    "path":"folders/~Misc/Settings.yy",
+    "path":"folders/Settings.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

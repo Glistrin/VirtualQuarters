@@ -119,8 +119,8 @@
   "maintainGms1Font":false,
   "name":"UndertaleFont",
   "parent":{
-    "name":"~",
-    "path":"folders/~Misc/~.yy",
+    "name":"~~",
+    "path":"folders/~~.yy",
   },
   "pointRounding":0,
   "ranges":[

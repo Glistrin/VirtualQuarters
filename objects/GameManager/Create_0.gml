@@ -1,5 +1,5 @@
 randomize()
 
-
+global.Volume = .67
 global.GamePaused = false
 iCamera = instance_create_layer(0,0,layer,oCamera) 

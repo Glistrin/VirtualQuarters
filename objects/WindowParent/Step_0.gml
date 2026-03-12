@@ -31,7 +31,9 @@ if (point_in_rectangle(mx, my,
     _hoverlength++
     _t += 0.005 * _hoverlength
     if (_hoverlength >= 5) _hoverlength = 5
+	request_cursor(spr_cursor_click, 1)
 }
-else _hoverlength = 0
+
+else {_hoverlength = 0;}
 
 if keyboard_check(ord("D")) {instance_destroy()}

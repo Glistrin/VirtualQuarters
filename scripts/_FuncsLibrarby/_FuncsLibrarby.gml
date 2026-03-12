@@ -35,6 +35,34 @@ function array_max(array)  {
 	}
 	return _max
 }
+function array_max_index(array) {
+	var _max = 0
+	var el = 0
+	for (var i = 0; i < array_length(array) ; i++) {
+	    if (array[i] > _max)
+	    {
+	       _max = array[i]
+		   el = i
+	    }
+	}
+	return el
+}
+function request_cursor(_sprite, _priority)
+{
+    array_push(global.cursor_requests_spr,  _sprite);
+    array_push(global.cursor_requests_p,  _priority);
+}
+function resolve_cursor()
+{
+    var best_sprite = -1;
+    var best_priority = -999999;
+	if array_length(global.cursor_requests_p) <= 0 {cursor_sprite = spr_cursor_default; return}
+	
+	var maxpriority = array_max_index(global.cursor_requests_p)
+	cursor_sprite = global.cursor_requests_spr[maxpriority]
 
+    global.cursor_requests_p = [];
+    global.cursor_requests_spr = [];
+}
 global.tracker = 0
 global.trackeeer = 0

@@ -58,3 +58,6 @@ global.MyerChara = {
 
 global.Party = [global.MainChara, global.KMChara, global.MapleChara]
 global.CurrentPartyM = 0
+
+global.cursor_requests_p = []
+global.cursor_requests_spr = []
